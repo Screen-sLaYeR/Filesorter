@@ -91,6 +91,8 @@ def og_sort(main_dir,res,the_op):
             message(i)
         finally:
             pro_bar = pro_bar + updater
+            the_op.insert(tk.END,"\n")
+
             continue
 root = tk.Tk()
 root.geometry("400x300")
